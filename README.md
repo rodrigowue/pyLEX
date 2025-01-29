@@ -68,6 +68,5 @@ R 1 1  | Fall
 1 1 R  | Fall
 ----------------------------------------
 ```
-A <*>.arcs file is generated as an output.
 
 
