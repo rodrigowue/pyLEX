@@ -8,18 +8,19 @@ R. N. Wuerdig, V. H. Maciel, R. Reis and S. Bampi, "LEX - A Cell Switching Arcs 
 
 This tool is ment to extract arcs from Pull-Down (PDN) and Pull-up Networks (PUN) while analysing a node-graph representation. This tool is part of a standard-cell characterization suite (FUTURE WORK).
 
+## Installing Dependencies and Running
+
+```
+pip install networkx
+pip install pyyaml
+```
+
+
 To run:
 
 ```
-make
-./lex <spice file>
-```
-
-or
-
-```
-g++ main.cpp map.cpp transistor.cpp
-./a.out <spice file>
+python3 main.py [-h/--help] for help
+python3 main.py [-i/--input] <spice file>.sp
 ```
 
 By running the spice_files/nand3.sp example the tool outputs:
